@@ -7,7 +7,8 @@ pseudo_lstrip = 0
 character_input = input("Enter your sentence:")
 
 # Imitate lstrip
-while pseudo_lstrip < len(character_input) and s[pseudo_lstrip] == " ":
+while pseudo_lstrip < len(character_input) and character_input[pseudo_lstrip] == " ":
     pseudo_lstrip += 1
     
 # Print the result
+print(character_input[pseudo_lstrip: ])
