@@ -1,2 +1,1 @@
-# string_manipulation_without_string_methods
-String manipulation without using string method
+Using string manipulation without the methods of string manipulation.
