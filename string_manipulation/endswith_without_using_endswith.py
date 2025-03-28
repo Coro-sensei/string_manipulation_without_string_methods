@@ -2,9 +2,16 @@
 
 # Input character
 character = input("Enter your sentence: ")
-endingwith = input("Enter the character the sentence should end with: ")
+endswith = input("Enter the word that it should end with: ")
 
 # Imitate endswith
-pseudo_endswith = character[-len(endingwith)] == endingwith
+result = False
+if len(endswith) <= len(character): 
+    if endswith == "":
+        result = True
+    else:
+        result = character[-len(endswith): ] == endswith    
+        
 
 # Print result
+print(result)
