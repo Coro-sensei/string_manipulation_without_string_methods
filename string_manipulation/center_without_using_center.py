@@ -9,4 +9,7 @@ center = width - len(character)
 ljust = center // 2
 rjust = center - ljust
 
+centered_characters = "*" * ljust + character + "*" * rjust
+
 # Print result
+print(centered_characters)
