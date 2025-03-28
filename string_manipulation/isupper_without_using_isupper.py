@@ -7,3 +7,4 @@ character = input("Enter your sentence: ")
 pseudo_isupper = all('A' <= char <= 'Z' for char in character if char.isalpha())
 
 # Print result
+print(pseudo_isupper)
