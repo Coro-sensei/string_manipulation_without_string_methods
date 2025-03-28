@@ -4,6 +4,7 @@
 character = input("Enter your sentence to be uncapitalized: ")
 
 # Imitate lower
-pseudo_lower = [chr(ord(char) + 32) if 'A' <= char <= 'Z' else char for char in character]
+pseudo_lower = ''.join(chr(ord(char) + 32) if 'A' <= char <= 'Z' else char for char in character)
 
 # Print result
+print(pseudo_lower)
