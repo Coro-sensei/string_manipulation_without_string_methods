@@ -9,5 +9,7 @@ pseudo_rstrip = len(character_input) - 1
 while pseudo_rstrip >= 0 and character_input [pseudo_rstrip] == " ":
     pseudo_rstrip -= 1
 
+trim_str = character_input[:pseudo_rstrip + 1]
+
 # Print result
-print(character_input[pseudo_rstrip: ])
+print(trim_str)
