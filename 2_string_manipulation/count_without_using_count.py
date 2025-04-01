@@ -6,8 +6,11 @@ character_count = input("Enter what word to count : ")
 
 # Imitate count
 pseudo_counter = 0
-for char in sentence:
+char = sentence.split()
+
+for char in char:
     if char == character_count:
         pseudo_counter += 1
-        
+
 # Print result
+print(f"The word: {character_count}, appears: {pseudo_counter}")
