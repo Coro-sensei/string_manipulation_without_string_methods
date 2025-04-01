@@ -10,7 +10,7 @@ if len(startswith) <= len(character):
     if startswith == "":
         result = True
     else:
-        result = character[len(startswith): ] == startswith    
+        result = character[:len(startswith)] == startswith    
 
 # Print result 
 print(result)
