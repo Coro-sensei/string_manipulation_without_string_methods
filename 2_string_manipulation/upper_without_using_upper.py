@@ -4,7 +4,7 @@
 character = input("Enter your sentence: ")
 
 # Imitate upper
-pseudo_upper = ''.join(chr(ord(char) - 32) if 'A' <= char <= 'Z' else char for char in character)
+pseudo_upper = ''.join(chr(ord(char) - 32) if 'a' <= char <= 'z' else char for char in character)
 
 # Print the result
 print(pseudo_upper)
