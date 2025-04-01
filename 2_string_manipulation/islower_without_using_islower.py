@@ -7,3 +7,4 @@ character = input("ENter your sentence: ")
 pseudo_islower = all('a' <= char <= 'z' for char in character if char.isalpha())
 
 # Print result
+print(pseudo_islower)
